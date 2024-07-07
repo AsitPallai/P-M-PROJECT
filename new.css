@@ -1,3 +1,39 @@
-.head {
+.fx230 {
     background-color: aquamarine;
+}
+body{
+    background-color: bisque;
+}
+.cat323d3{
+    height: 600px;
+    width: 400px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    border: 2 px solid black;
+}
+.tatahitachizx140h{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(18, 202, 58);
+    border-radius: 8px;
+    border: 2 px solid black;
+}
+.tatahitachiex210lc{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(187, 118, 183);
+    border-radius: 8px;
+    border: 2 px solid black;
+}
+.tatahitachizx220lc{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(207, 218, 113);
+    border-radius: 8px;
+    border: 2 px solid black;
+}
+.excavator{
+    display: flex;
+    /* align-items: start;
+    justify-content: space-between; */
 }
