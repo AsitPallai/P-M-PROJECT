@@ -41,3 +41,20 @@ body{
     justify-content: space-evenly;
     /* border: 2px solid black; */
 }
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wh-loader-jcb-432zx{
+    background-color: bisque;
+    border-radius: 8px;
+}
+.bh-loader-jcb-3dx{
+    background-color: rgb(22, 211, 211);
+    border-radius: 8px;
+}
+.soil-com-hamm-311{
+    background-color: rgba(165, 42, 42, 0.342);
+    border-radius: 8px;
+}
