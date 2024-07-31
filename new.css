@@ -5,56 +5,83 @@
 body{
     /* background-color: bisque; */
 }
+.container{
+    background-color: antiquewhite;
+}
 .cat323d3{
     height: 800px;
     width: 380px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     border-radius: 8px;
-    border: 1 px solid black;
+    border: 1px solid black;
 }
 .tatahitachizx140h{
     /* display: flex;
     position: absolute; */
     height: 800px;
     width: 380px;
-    background-color: rgb(18, 202, 58);
+    /* background-color: rgb(18, 202, 58); */
     border-radius: 8px;
-    border: 2 px solid black;
+    border: 1px solid black;
 }
 .tatahitachiex210lc{
     height: 800px;
     width: 380px;
-    background-color: rgb(187, 118, 183);
+    /* background-color: rgb(187, 118, 183); */
     border-radius: 8px;
-    border: 2 px solid black;
+    border: 1px solid black;
 }
 .tatahitachizx220lc{
     height: 800px;
     width: 380px;
-    background-color: rgb(207, 218, 113);
+    /* background-color: rgb(207, 218, 113); */
     border-radius: 8px;
-    border: 2 px solid black;
+    border: 1px solid black;
+   
 }
 .excavator{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     /* border: 2px solid black; */
+     
 }
 .container-2{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: aquamarine;
 }
 .wh-loader-jcb-432zx{
-    background-color: bisque;
+    height: 800px;
+    width: 380px;
+    /* background-color: bisque; */
     border-radius: 8px;
+    border: 1px solid black;
 }
 .bh-loader-jcb-3dx{
-    background-color: rgb(22, 211, 211);
+    height: 800px;
+    width: 380px;
+    /* background-color: rgb(22, 211, 211); */
     border-radius: 8px;
+    border: 1px solid black;
 }
 .soil-com-hamm-311{
-    background-color: rgba(165, 42, 42, 0.342);
+    height: 800px;
+    width: 380px;
+    /* background-color: rgba(165, 42, 42, 0.342); */
     border-radius: 8px;
+    border: 1px solid black;
+}
+.tendom-rol-hamm-hd99{
+    height: 800px;
+    width: 380px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+thead{
+    background-color: pink;
 }
