@@ -327,11 +327,96 @@
                     </tr>
                 </tbody>
             </table>
-        </div>    
+        </div>  
+        <h3>Hydraulic Circuit – Tata Hitachi</h3> 
+        <ol>
+            <li><strong>Main Hydraulic Flow</strong>
+                 <ul>
+                    <li>Engine drives → two variable displacement axial piston pumps.</li>
+                    <li>These pumps draw oil from the hydraulic tank through suction filters.</li>
+                    <li>Pump delivery goes → main control valve (MCV).</li>
+                    <li>From MCV → oil directed to boom, arm, bucket cylinders, swing motor, and travel motors.</li>
+                    <li>Return oil → tank via return filters → cooler.</li>
+                 </ul>
+            </li><br>
+            <li><strong>Pilot Hydraulic Flow</strong>
+                <ul>
+                    <li>Gear-type pilot pump supplies ~3–4 MPa pressure.</li>
+                    <li>Oil flows to joysticks/pedals → small pilot oil pressure moves spools in MCV.</li>
+                    <li>Pilot signals control the main pump output (via EPC) and direction of oil flow.</li>
+                </ul>
+            </li><br>
+            <li>
+                <strong>Boom Circuit</strong>
+                <ul>
+                    <li>When joystick pulled:
+                        <ul>
+                            <li>Pilot oil shifts boom spool in MCV.</li>
+                            <li>Pressurized oil → boom cylinder head side (piston extends).</li>
+                            <li>Return oil → tank.</li>
+                        </ul>
+                        <li>Boom lowering: oil is directed to rod side of boom cylinder.</li>
+                        <li>Boom priority valve ensures boom gets flow first (important for lifting).</li>
+                    </li>
+                </ul>
+            </li><br>
+            <li>
+                <strong>Arm Circuit</strong>
+                <ul>
+                    <li>Joystick controls arm spool in MCV.</li>
+                    <li>Oil directed to arm cylinder for digging or crowding.</li>
+                    <li>Arm in/out controlled by reversing spool flow.</li>
+                </ul>
+            </li><br>
+            <li>
+                <strong>Bucket Circuit</strong>
+                <ul>
+                    <li>Joystick (thumb movement) → bucket spool.</li>
+                    <li>Oil → bucket cylinder for curling/dumping.</li>
+                    <li>Relief valve protects from overloading during digging.</li>
+                </ul>
+            </li><br>
+            <li>
+                <strong>Swing Circuit</strong>
+                <ul>
+                    <li>Swing joystick/pedal → pilot pressure shifts swing spool</li>
+                    <li>Oil → swing motor (left/right rotation).</li>
+                    <li>Swing relief valve prevents damage from sudden loads.</li>
+                    <li>Swing brake valve holds upper structure steady when joystick neutral.</li>
+                </ul>
+            </li><br>
+            <li>
+                <strong>Travel Circuit</strong>
+                <ul>
+                    <li>Travel pedals control travel spools.</li>
+                    <li>Oil → travel motors (left/right track).</li>
+                    <li>Each motor has two-speed function (low for torque, high for travel).</li>
+                    <li>Cross-over relief valves protect motors when machine hits an obstacle.</li>
+                </ul>
+            </li><br>
+            <li>
+                <strong>Return & Cooling Circuit</strong>
+                <ul>
+                    <li>All return oil → tank via return filter.</li>
+                    <li>Oil passes through hydraulic cooler before returning to tank.</li>
+                    <li>Keeps temperature stable (avoids overheating).</li>
+                </ul>
+            </li>
+        </ol>
+        <h3>Simplified Flow Path (Step by Step Example – Boom Raise)</h3>
+        <ol>
+            <li>Engine drives hydraulic pumps.</li>
+            <li>Operator pulls boom joystick → pilot pressure shifts boom spool.</li>
+            <li>Main pump sends oil → boom cylinder head side.</li>
+            <li>Cylinder extends → boom lifts.</li>
+            <li>Return oil from rod side → tank via MCV + return filter.</li>
+            <li>Pump displacement automatically adjusted by EPC (load sensing).</li>
+        </ol>
     </div>
 </body>
 
 </html>
+
 
 
 
